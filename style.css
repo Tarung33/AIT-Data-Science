@@ -1,0 +1,173 @@
+#head{
+    height: fit-content;
+    width: 0 auto;
+    color: black;
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #D1E9F6;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.navbar{
+    height: fit-content;
+    width: 0 auto;
+    background-color:#BED7DC;
+    font-size: 18px;
+    /* font-family: sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+a {
+    height: 25px;
+    text-decoration: none;
+    color:  black;
+    margin: 3px;
+    border: 0px solid black;
+    border-radius: 8px;
+}
+a:hover{
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#search{
+    height: 30px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#main{
+    height: 600px;
+    width: 0 auto;
+    background-image:url(datagraph.avif);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+#deptname{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    height: fit-content;
+    background-color: #DBDFEA;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery{
+   height: 325px;
+   width: auto;
+   display: inline-flex;
+}
+.adarsh{
+    height:fit-content;
+    width: 0 auto;
+    text-align: center;
+    line-height: 0.5px;
+}
+#hod:hover{
+    box-shadow: 5px 5px 15px violet;
+}
+.fnames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 0.5px;
+    align-items: center;
+}
+
+.pallavi:hover{
+    box-shadow: 5px 5px 15px violet;
+}
+.shilpa:hover{
+    box-shadow: 5px 5px 15px violet;
+}
+.gagana:hover{
+    box-shadow: 5px 5px 15px violet;
+}
+.harshitha:hover{
+    box-shadow: 5px 5px 20px violet;
+}
+.shalini:hover{
+    box-shadow: 5px 5px 15px violet;
+}
+h5{
+    color: grey;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-size: large;
+}
+#vision{
+    display:flex;
+}
+.about{
+    letter-spacing: 0.5px;
+    font-family:Tahoma, sans-serif;
+    margin: 8px;
+    flex-wrap: wrap;
+}
+#Faculties{
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact{
+    height: fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#address{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(179, 222, 235);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+}
+#phone{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(179, 222, 235);
+    box-shadow: 5px 5px 15px black;
+}
+#work{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(179, 222, 235);
+    box-shadow: 5px 5px 15px black;
+}
+#foot{
+    height: fit-content;
+    background-color: #adddf7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
